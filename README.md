@@ -31,6 +31,6 @@ python censys.py
 ```
 
 ## Develoeprs:
-Python: 3.10.8
-C# Example [Here](https://github.com/UrFingPoor/CensysAPI)
+- Python: 3.10.8
+- C# Example [Here](https://github.com/UrFingPoor/CensysAPI)
 
