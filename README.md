@@ -19,6 +19,14 @@
 Like shodan but better for recon and osint. the censys bots scrape the web looking for all devices even beind protected services like cloudflare then stores them within their database.This allows you to check your host and see if your backend ipaddress is exposed to the public. 
 
 ###### Usage:
-```cs
+
+Setting Up The API:
+- Login/Register [Here](https://accounts.censys.io/register).
+- Once Register Get Your API ID AND API KEY [Here](https://search.censys.io/account/api).
+- Open `Authorization.json` in notepad and/or any text editor.
+- API_ID = APP ID | API_KEY = Secret
+- Save The File & Run The Script With The Command Below
+
+```py
 python censys.py
 ```
