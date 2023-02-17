@@ -1,7 +1,6 @@
 
 <a name="readme-top"></a>
 
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -9,7 +8,7 @@
     <img src="https://cdn.discordapp.com/attachments/1045896845785829385/1051985021625434153/Untitled_Artwork.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Lethal SelfBot</h3>
+  <h3 align="center">Censys Search API</h3>
 
   <p align="center">
     Censys Search API
