@@ -33,7 +33,7 @@ def search():
             elif r.status_code == 400:
                 SendLog("Bad Request: The request you made is invalid.")
             elif r.status_code == 401:
-                SendLog("Unauthorized: You must authenticate with a valid API ID and secret.")           
+                SendLog("Unauthorized: You must authenticate with a valid API ID and API KEY.")           
             elif r.status_code == 422:
                 SendLog("Invalid cursor: Remove The https://.")
             elif r.status_code == 429:  
