@@ -29,3 +29,8 @@ Like shodan but better for recon and osint. the censys bots scrape the web looki
 ```cs
 python censys.py
 ```
+
+## Develoeprs:
+Python: 3.10.8
+C# Example [Here](https://github.com/UrFingPoor/CensysAPI)
+
