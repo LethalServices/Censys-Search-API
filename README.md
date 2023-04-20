@@ -4,7 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://lethals.org/">
     <img src="https://cdn.discordapp.com/attachments/1086386664714289272/1086759710574772374/Lethal.png" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">Censys Search API</h3>
