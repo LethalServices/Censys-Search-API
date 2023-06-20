@@ -26,7 +26,7 @@ def search():
         AuthToken = {"Authorization": f"Basic {base64.b64encode(Auth_Data.encode('ascii')).decode('ascii')}"}
 
         with requests.get(f'https://search.censys.io/api/v2/hosts/search?q={domain}', headers=AuthToken) as r:
-            if r.status_code == 200:
+            if r.ok:
                 with open(f"{domain}.json", "wb") as report:
                     report.write(r.content)
                     SendLog(f"Report Saved To {os.getcwd()}\\{domain}.json.")
